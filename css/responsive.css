@@ -1,0 +1,67 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* Styles */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+
+.menu-burger{
+  display:block;
+  padding:6px;
+}
+
+.main-navigation{
+  display:none;
+}
+
+.scnd-navigation li{
+  padding-right: 5px;
+}
+
+  .icons{
+    font-size: 1rem;
+  }
+
+  header h1{
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  header p{
+    font-size: 0.5rem;
+    margin-left: 15px;
+    padding: 5px 5px;
+  }
+
+
+  .text_mode_h2{
+    right: 8%;
+    top: 30%;
+    z-index:1;
+    border: 2px solid black;
+  }
+
+  .text_mode_h2 h2{
+    font-size: 0.54rem;
+  }
+  ]
+  .text_acess_h2 {
+    left: 18%;
+    top: 40%;
+    z-index: 1;
+  }
+
+
+  h2{
+   font-size: 1.5rem;
+  }
+
+  .articles-to-sell .container, .row_add{
+    flex-direction: column;
+  }
+
+  }
